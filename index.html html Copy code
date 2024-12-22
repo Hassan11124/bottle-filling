@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bottle Filling Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="game-name">Bottle Filling Game</h1>
+        <div id="customization">
+            <label for="game-name-input">Game Name: </label>
+            <input type="text" id="game-name-input" placeholder="Enter a custom game name">
+            <button id="update-game-name">Update</button>
+        </div>
+    </header>
+    <main>
+        <canvas id="gameCanvas"></canvas>
+        <div id="controls">
+            <button id="start-game">Start Game</button>
+            <div id="score-board">Score: <span id="score">0</span></div>
+        </div>
+        <div id="ads">
+            <!-- Replace with your ad provider's code -->
+            <p>Ad Space 1</p>
+            <p>Ad Space 2</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
